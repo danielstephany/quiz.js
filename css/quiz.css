@@ -7,7 +7,7 @@
 	background-color: #fff;
 	border: 2px solid #71968d;
 	border-radius: 10px;
-	min-height: 400px;
+	min-height: 520px;
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -18,7 +18,7 @@
 	padding: 55px 20px 5px;
 	margin: 0 0 0px;
 	text-align: left;
-	border-bottom: 3px solid #71968d;
+	border-bottom: 2px solid #71968d;
 }
 
 .question-content p,
@@ -33,18 +33,21 @@
 	margin: 0;
 	padding: 45px 20px 5px;
 	vertical-align: middle;
-	border-bottom: 2px solid #71968d;
+	border-top: 2px solid #71968d;
 }
 
 .quiz-button {
 	padding: 10px;
 	min-width: 50px;
-	max-width: 150px;
 	border: 1px solid #000;
 	border-radius: 3px;
 	margin: 0 20px 0 0;
 	text-align: center;
 	cursor: pointer;
+}
+
+#nextQuestion {
+	display: none;
 }
 
 .clear:after {
